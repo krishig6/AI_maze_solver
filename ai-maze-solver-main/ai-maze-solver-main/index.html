@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Maze Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🧠 AI Maze Solver</h1>
+
+<canvas id="grid"></canvas>
+
+<div class="controls">
+
+    <!-- MODES -->
+    <h3>🧱 Build Mode</h3>
+    <button onclick="setMode('wall')">Walls</button>
+    <button onclick="setMode('erase')">Erase</button>
+    <button onclick="setMode('start')">Set Start</button>
+    <button onclick="setMode('end')">Set End</button>
+
+    <!-- ALGORITHMS -->
+    <h3>🤖 Algorithms</h3>
+    <button onclick="bfs()">BFS</button>
+    <button onclick="astar()">A*</button>
+    <button onclick="dfs()">DFS</button>
+    
+
+    <!-- MAZE -->
+    <h3>🎯 Generate Maze</h3>
+    <button onclick="generateMaze(0.2)">Easy</button>
+    <button onclick="generateMaze(0.4)">Medium</button>
+    <button onclick="generateMaze(0.6)">Hard</button>
+
+    <!-- SPEED -->
+    <h3>⚡ Speed</h3>
+    <button onclick="setSpeed(5)">Fast</button>
+    <button onclick="setSpeed(20)">Medium</button>
+    <button onclick="setSpeed(50)">Slow</button>
+
+    <!-- OPTIONS -->
+    <h3>⚙️ Options</h3>
+    <button onclick="toggleExploration()">Toggle Exploration</button>
+    <button onclick="clearGrid()">Clear</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
