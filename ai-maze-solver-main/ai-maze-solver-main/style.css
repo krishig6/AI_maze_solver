@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background: radial-gradient(circle, #0f172a, #020617);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    color: #00ffd5;
+    text-shadow: 0 0 10px #00ffd5;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #00ffd5;
+    background: #111;
+    box-shadow: 0 0 25px #00ffd5;
+    border-radius: 10px;
+}
+
+.controls {
+    margin: 10px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #ffaa00;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    background: #1e293b;
+    color: #00ffd5;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #00ffd5;
+    color: black;
+    box-shadow: 0 0 10px #00ffd5;
+}
